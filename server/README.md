@@ -1,3 +1,0 @@
-# typescript-template
-
-🌱 TypeScript template

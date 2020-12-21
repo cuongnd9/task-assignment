@@ -1,6 +1,6 @@
 import { makeExecutableSchema } from 'graphql-tools';
-import resolver from './chat.resolver';
-import typeDef from './chat.typeDef';
+import resolver from './task.resolver';
+import typeDef from './task.typeDef';
 
 const schema = makeExecutableSchema({ typeDefs: [typeDef], resolvers: [resolver] });
 

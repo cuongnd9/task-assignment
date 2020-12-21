@@ -2050,6 +2050,11 @@ chardet@^0.7.0:
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
+chichi@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/chichi/-/chichi-0.0.2.tgz#b909ea70101faa619edc931c94e74caa2e0ee1bc"
+  integrity sha512-h26faamEfAkbmW2v1aNQqu8dV3/j4oj7pnL3cUqZIJy2Ur/DIRk+ft5eJHRBWyc9JkMhdyQpfKhX/uNO4kSHlQ==
+
 chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -2507,6 +2512,11 @@ destroy@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz#978857442c44749e4206613e37946205826abd80"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+
+diana-js@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/diana-js/-/diana-js-0.7.0.tgz#fe98d634bc41667a2bc2a70df397a3e14c39c762"
+  integrity sha512-o9KJWZOdyKSW3xnLzM2wab9F90EvxPESTjS5gEI1i2okdNpfbHOR+dzV1sqi1nVyZ2POiquX1SkwIi9v64qRjg==
 
 dicer@0.3.0:
   version "0.3.0"
