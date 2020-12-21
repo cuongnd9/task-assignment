@@ -31,9 +31,7 @@ const resolver = {
         console.log(payload, '------------payload');
         return payload.taskSent;
       },
-      subscribe: withFilter(() => pubsub.asyncIterator(CHANNEL.taskAssignment), (payload, variables) => {
-        return payload.user === variables.user;
-      }),
+      subscribe: withFilter(() => pubsub.asyncIterator(CHANNEL.taskAssignment), (payload, variables) => payload.user === variables.user),
     },
   },
 };
