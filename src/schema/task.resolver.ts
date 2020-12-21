@@ -18,7 +18,6 @@ const resolver = {
         content,
         status: 'TODO',
       };
-      tasks.push(newTask);
       await pubsub.publish(CHANNEL.newTask, { newTask });
 
       return newTask;
@@ -27,10 +26,7 @@ const resolver = {
 
   Subscription: {
     taskSent: {
-      resolve: (payload: any) => {
-        console.log(payload, '------------payload');
-        return payload.taskSent;
-      },
+      resolve: (payload: any) => payload.taskSent,
       subscribe: withFilter(() => pubsub.asyncIterator(CHANNEL.taskAssignment), (payload, variables) => payload.user === variables.user),
     },
   },
