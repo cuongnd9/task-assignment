@@ -108,4 +108,6 @@ build/
 tmp/
 temp/
 
+.idea
+
 # End of https://www.gitignore.io/api/node

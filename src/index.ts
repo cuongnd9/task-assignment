@@ -26,19 +26,7 @@ const main = () => {
       execute,
       subscribe,
       schema,
-      onConnect: () => {
-        console.log('-----------onConnect');
-      },
-      onDisconnect: () => {
-        console.log('----------onDisconnect');
-      },
-      onOperation: (_: any, params: any) => {
-        console.log('--------onOperation');
-        return params;
-      },
-      onOperationComplete: () => {
-        console.log('------onOperationComplete');
-      },
+      onConnect: (connectionParams: any) => connectionParams,
     }, {
       server: ws,
       path: '/graphql',
@@ -46,7 +34,7 @@ const main = () => {
     console.log(`🚀 Apollo Server is now running on http://localhost:${PORT}`);
   });
 
-  // executeWorker();
+  executeWorker();
 };
 
 try {
